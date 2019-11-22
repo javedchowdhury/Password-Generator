@@ -1,0 +1,40 @@
+.content{
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: lightgray;
+padding: 20px;
+width: 100%;
+}
+
+#display{
+    width: 100%;
+    height: 200px;
+}
+
+#slider{
+    width: 100%;
+}
+
+.previous_passwords{
+ margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 3000px;
+    /* background: #73AD21; */
+    padding: 20px; 
+    width: 250px;
+    height: 50px;  
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    line-height: 2px
+  }
+
+  .content {
+      background-color: #eee;
+  }
+
+  #display {
+    border: 2px dashed gray;
+}

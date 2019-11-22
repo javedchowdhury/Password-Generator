@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Passwrod Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-8 col-sm-12 mx-auto">
+
+                <div class="content">
+                    <div class="passwordHeader">
+                        <h1 class="text-center">Password Generator</h1>
+                    </div>
+                    <h4 class="text-left">Generate a Password</h4>
+                    <hr>
+
+                    <input type="text" id="display" class="text-center" placeholder="Your Secure Password">
+                    <br>
+                    <input type="range" min="0" max="50" name="slider" id="slider">
+                    <hr>
+                    <button onclick="generate()" type="button" class="btn btn-danger">Generate Password</button>
+                    <button value="Refresh Page" onClick="window.location.reload();" type="button" class="btn-primary">Refresh</button>
+                    <button onclick="copyPassword()" type="button" class="btn btn-secondary">Copy to Clipboard</button>
+
+                    <div id="length"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
